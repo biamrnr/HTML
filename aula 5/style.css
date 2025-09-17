@@ -1,0 +1,36 @@
+/* * = aplica a todos os elementos*/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .classe = reutilizavel em varios elementos*/
+.destaque {
+    color: blue;
+    font-weight: bold;
+}
+/* #id = unico para um elemento*/
+#titulo-principal {
+    color:red;
+    text-align: center;
+}
+/* tag = altera todos os elementos*/
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+/*h1, h2, h3 = agrupamento de seletores*/
+h1, h2, h3 {
+    font-family: arial, sans-serif;
+    color: darkgreen;
+}
+h4{
+    line-height: 1.5;/*espaço entre linhas*/
+    letter-spacing: 2px;/*espaço entre as letras*/
+    word-spacing: 5px;/*espaço entre palavras*/
+}
+img {
+    width: 200px;
+    border: 2px solid black;
+    display:block;/* faz o elemeto se comportar como um bloco(toda a linha sozinha)*/
+    margin:auto/*centraliza o elemento horizontalmente, desde que tenha uma largura(width) definido*/
+}

@@ -1,0 +1,38 @@
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    justify-content: center;
+    position: relative;
+}
+li {
+    position: relative;
+}
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+            background-color: blueviolet;
+        }
+ul .sub{
+    display:none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: blueviolet;
+    min-width: 160px;
+    z-index: 1;
+    flex-direction: column;
+}
+li:hover .sub{
+    display: flex;
+}
+.sub li{
+    border-bottom: 1px solid white;
+}
