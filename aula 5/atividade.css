@@ -1,0 +1,44 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: plum;
+    overflow: hidden;
+}
+li {
+    float: left;
+
+}
+a{
+    display: block;
+    color:white;
+    padding: 14px 20px;
+    text-decoration: none;
+} 
+li:hover {
+            text-decoration:double;
+            font-size: 20px;
+        }
+
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.destaque {
+    color: purple;
+    font-weight: bold;
+}
+
+#titulo-principal {
+    color:pink;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
