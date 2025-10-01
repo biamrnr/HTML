@@ -1,0 +1,34 @@
+/* Hover - quando o mousse passa por cima */
+button:hover {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+/* focus - quando o elemento recebe foco */
+input:focus {
+    outline: 1px solid fuchsia;
+}
+/*first-child - primeiro filho de um elemento*/
+p:first-child {
+   font-weight: bold;
+}
+/* last-child - ultimo filho de um elemento */
+li:last-child {
+   color: fuchsia ;
+}
+/* nth-child(n) - seleciona filhos pela posição */
+tr:nth-child(even) {/*linhas pares*/
+    background-color: purple;
+}
+tr:nth-child(odd) {/*linhas impares*/
+    background-color: plum;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}

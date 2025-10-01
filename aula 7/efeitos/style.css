@@ -1,0 +1,62 @@
+/* Transition - mudanças suaves entre estados */
+button {
+    background: blueviolet;
+    color: white;
+    transition: background 0.3s ease; /* duração e efeito */
+    border: none;
+
+}
+
+button:hover {
+    background-color: purple;
+}
+/* animation - keyframes e animações personalizadas */
+@keyframes piscar {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+ div {
+    animation: piscar 2s infinite;
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+}
+/* translate - movimento horizontal/vertical */
+div:hover {
+    transform: translate(20px, 20px); 
+    
+} 
+/* gradiente - cores que se misturam */
+#div1 {
+    background: linear-gradient(to right, purple, blueviolet);
+    width: 100%;
+}
+#div2 {
+    background: radial-gradient(circle, blue, white);
+    width: 100%;
+}
+/* rotate - rotação de elementos */
+img:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
+/* scale - aumento/diminuição de elementos */
+button:hover {
+    transform: scale(1.2);/*aumenta 20% */
+}
+
+/* opacity - transparencia */
+img {
+    opacity: 0.7;
+}
+
+/* border- radius - cantos arredondados */
+div {
+    border-radius: 10px; /* arredonda os cantos */
+}
+
+img {
+    border-radius: 50%; 
+}
